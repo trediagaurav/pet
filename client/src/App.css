@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap"rel="stylesheet");
+
+.App {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+.Nav{
+  background-color:  rgb(202, 202, 202);
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Mulish';
+}
+.signout{
+  position: absolute;
+  left: 1300px;
+  top: 16px;
+  cursor: pointer;
+  font-size: medium;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  font-family: 'Mulish';
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo {
+  background-color: gray;
+  text-align: center;
+  font-size-adjust: 20px;
+  font-family: 'Mulish';
+}
+
+.slide {
+  margin-left: 50px;
+  width: 900px;
+  height: 600px;
+  align-content: center;
+}
+
+.regForm {
+  margin-left: 50px;
+  width: 600px;
+  border: solid gray 2px;
+  border-radius: 25px;
+  padding: 30px;
+  font-family: 'Mulish';
+}
+.blog {
+  padding: 50px;
+  background-color: rgba(29, 25, 25, 0.247);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, 0.5);
+}
+.footer {
+  background-color: whitesmoke;
+  height: 70px;
+  padding-top: 10px;
+  justify-content: space-around;
+}
+.footerIcon {
+  padding-right: 20px;
+}
+.img{
+  width: 800px;
+  margin-left: -170px;
+
+}
+.contactform {
+  text-align: left;
+  left: 300px;
+  bottom: 50px;
+  width: 600px;
+  height: 520px;
+  color: black;
+}
+.blogForm1, .blogForm2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutLable{
+ background-color: rgb(138, 136, 135);
+ color:whitesmoke;
+ font-size: 30px;
+ font-family: cursive;
+ border: solid black 2px;
+ text-align: center;
+}
+.loginForm{
+  width: 450px;
+  height:400px;
+  color: black;
+}
+.servicepic{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid rgb(243, 240, 240) 2px;
+}
+.service{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.petbath{
+font-size: large;
+margin: 50px;
+}

@@ -1,0 +1,58 @@
+
+  SQL FOR DEPLOYING POSTGRESS DATABASE FROM PGADMIN4 TO HEROKU POSTGRESS OR OTHER DATABASE:
+
+
+sudo -u postgres psql
+
+\list
+
+
+CREATE DATABASE myreactloginreg;
+
+\list
+
+\c myreactloginreg;
+
+\d;
+
+
+
+ CREATE TABLE users
+(
+    id serial NOT NULL PRIMARY KEY,
+    name VARCHAR(100),
+    email text UNIQUE NOT NULL,
+    entries BIGINT DEFAULT 0,
+    joined timestamp with time zone NOT NULL
+
+);
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+CREATE TABLE login
+(
+    id serial NOT NULL PRIMARY KEY,
+    hash VARCHAR(100) NOT NULL,
+    email text UNIQUE NOT NULL
+
+);
+
+
+CREATE TABLE favourite
+(
+    id serial NOT NULL PRIMARY KEY,
+    user_id integer NOT NULL,
+    Image VARCHAR(500),
+    Ref VARCHAR(500) UNIQUE NOT NULL,
+	Height VARCHAR(500),
+	Width VARCHAR(500), 
+	FOREIGN KEY(user_id) REFERENCES users(id)
+);
+
+picAPI = "https://api.thedogapi.com/v1/images/search?limit=100";
+breedAPI = 'https://api.thedogapi.com/v1/breeds'
+
+
