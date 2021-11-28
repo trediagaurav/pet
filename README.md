@@ -1,4 +1,4 @@
 Pet App
 
 
-![pet app pic](https://user-images.githubusercontent.com/63077892/98611907-9a8d0180-22fb-11eb-9a2f-1991ffe9cde6.JPG)
+![pet](https://user-images.githubusercontent.com/63077892/143782898-85acb67b-2bbd-462f-bc5e-50ea8e4ef13a.JPG)
